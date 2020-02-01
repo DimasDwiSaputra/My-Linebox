@@ -20,14 +20,14 @@
     <!-- Custom Theme Style -->
     <link href="{{ asset('build/css/custom.min.css')}}" rel="stylesheet">
 
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')}}"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   
-  <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js')}}"></script>
+  <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
  
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css')}}" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css')}}" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js')}}"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
   </head>
   <body>
        
@@ -40,14 +40,14 @@
         <!-- jQuery -->
 
     <!-- Bootstrap -->
-   <script src="{{'vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
+   <script src="{{ asset('vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
     <!-- FastClick -->
-    <script src="{{'vendors/fastclick/lib/fastclick.js')}}"></script>
+    <script src="{{ asset('vendors/fastclick/lib/fastclick.js')}}"></script>
     <!-- NProgress -->
-    <script src="{{'vendors/nprogress/nprogress.js')}}"></script>
+    <script src="{{ asset('vendors/nprogress/nprogress.js')}}"></script>
     
     <!-- Custom Theme Scripts -->
-    <script src="{{build/js/custom.min.js')}}"></script>
+    <script src="{{ asset('build/js/custom.min.js')}}"></script>
 
      <script>
 $(document).ready(function(){
